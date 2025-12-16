@@ -4,7 +4,8 @@
 /*===========================*/
 :root {
 	--frss-padding-top-bottom: 0.5rem;
-
+	--frss-loading-image: url("loader.gif");
+	
 	/* --- BACKGROUND (Alucard / Dracula Light) --- */
 	/* Main background color: #FFFBEB (Cream) */
 	/* Selection color: #CFCFDE (Light purple/gray) */
