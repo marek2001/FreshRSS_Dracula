@@ -20,7 +20,7 @@
    
 ### Option 2: Manual Download
 
-1. Download the latest version of the theme from the **Releases** page (or download the ZIP from the main page).
+1. Download the ZIP from the repository main page.
 2. Unzip the file.
 3. Move the folder to the `p/themes` directory inside your FreshRSS installation.
 4. Ensure the folder is named `Dracula`.
@@ -28,6 +28,6 @@
 ### Activate
 
 1. Log in to your FreshRSS instance.
-2. Go to **Administration** (gear icon) -> **Display**.
+2. Go to **Administration** ( ⚙️ gear icon) -> **Display**.
 3. Under **Theme**, select **Dracula**.
 4. Scroll down and click **Submit** to save.
