@@ -1,0 +1,13 @@
+{
+    "name": "Dracula",
+    "author": "Marek Marecki",
+    "description": "Dracula/Alucard Theme (Dark & Light variants) for FreshRSS",
+    "version": "1.0",
+    "files": [
+        "_frss.css", "dracula.css"
+    ],
+    "theme-color": {
+        "dark": "#282A36",
+        "light": "#FFFBEB"
+    }
+}

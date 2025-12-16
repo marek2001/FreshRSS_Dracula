@@ -5,19 +5,19 @@
 :root {
 	--frss-padding-top-bottom: 0.5rem;
 
-	/* --- TŁO (Alucard / Dracula Light) --- */
-	/* Główny kolor tła: #FFFBEB (Kremowy) */
-	/* Kolor zaznaczenia: #CFCFDE (Jasny fiolet/szary) */
+	/* --- BACKGROUND (Alucard / Dracula Light) --- */
+	/* Main background color: #FFFBEB (Cream) */
+	/* Selection color: #CFCFDE (Light purple/gray) */
 
 	--background-color-light-gradient1: #FFFBEB;
-	--background-color-light-gradient2: #F2EEDD; /* Nieco ciemniejszy odcień dla głębi */
+	--background-color-light-gradient2: #F2EEDD; /* Slightly darker shade for depth */
 	--background-color-light: #FFFBEB;
 	--background-color-light-shadowed: #F2EEDD;
 	--background-color-light-shadowed-transparent: #FFFBEBa8;
-	--background-color-grey: #F2EEDD; /* Używany w nagłówkach/paskach bocznych */
+	--background-color-grey: #F2EEDD; /* Used in headers/sidebars */
 	--background-color-hover: #CFCFDE; /* Alucard Selection Color */
 
-	/* --- ARTYKUŁY --- */
+	/* --- ARTICLES --- */
 	--unread-article-background-color: #FFFBEB;
 	--unread-article-background-color-hover: #EBE7D6;
 	--unread-article-border-color: #A34D14; /* Alucard Orange */
@@ -26,16 +26,16 @@
 	--favorite-article-background-color-hover: #EBE7D6;
 	--favorite-article-border-color: #846E15; /* Alucard Yellow */
 
-	/* --- GŁÓWNE AKCJE / PRZYCISKI (Fiolet) --- */
+	/* --- PRIMARY ACTIONS / BUTTONS (Purple) --- */
 	--contrast-background-color: #644AC9; /* Alucard Purple */
 	--contrast-background-color-gradient: #644AC9;
-	--contrast-background-color-hover: #7E66DB; /* Nieco jaśniejszy fiolet */
-	--contrast-background-color-active: #A3144D; /* Alucard Pink przy kliknięciu */
+	--contrast-background-color-hover: #7E66DB; /* Slightly lighter purple */
+	--contrast-background-color-active: #A3144D; /* Alucard Pink on click */
 	--contrast-border-color: #644AC9;
 
-	--contrast-background-font-color: #FFFBEB; /* Jasny tekst na ciemnym fiolecie */
+	--contrast-background-font-color: #FFFBEB; /* Light text on dark purple */
 
-	/* --- AKCJE NIEBEZPIECZNE (Czerwień) --- */
+	/* --- DANGEROUS ACTIONS (Red) --- */
 	--attention-background-color-gradient1: #CB3A2A; /* Alucard Red */
 	--attention-background-color-gradient2: #CB3A2A;
 	--attention-background-color-gradient1-hover: #D65C4F;
@@ -43,27 +43,27 @@
 	--attention-background-color-active: #CB3A2A;
 	--attention-border-color: #CB3A2A;
 
-	/* --- STATUS KANAŁÓW --- */
+	/* --- FEED STATUS --- */
 	--empty-feed-color: #A34D14; /* Orange */
 	--error-feed-color: #CB3A2A; /* Red */
 
-	/* --- ALERTY I POWIADOMIENIA --- */
-	/* Ostrzeżenie */
-	--alert-warn-background-color: #FFF5E6; /* Rozjaśniony Orange */
+	/* --- ALERTS AND NOTIFICATIONS --- */
+	/* Warning */
+	--alert-warn-background-color: #FFF5E6; /* Lightened Orange */
 	--alert-warn-font-color: #A34D14;
 	--alert-warn-border-color: #A34D14;
 
-	/* Sukces */
-	--alert-success-background-color: #E8F5E9; /* Rozjaśniony Green */
+	/* Success */
+	--alert-success-background-color: #E8F5E9; /* Lightened Green */
 	--alert-success-font-color: #14710A; /* Alucard Green */
 	--alert-success-border-color: #14710A;
 
-	/* Błąd */
-	--alert-error-background-color: #FFEBEB; /* Rozjaśniony Red */
+	/* Error */
+	--alert-error-background-color: #FFEBEB; /* Lightened Red */
 	--alert-error-font-color: #CB3A2A; /* Alucard Red */
 	--alert-error-boder-color: #CB3A2A;
 
-	/* Powiadomienia */
+	/* Notifications */
 	--notification-good-background-color: #E8F5E9;
 	--notification-good-border-color: #14710A;
 	--notification-good-font-color: #14710A;
@@ -73,30 +73,30 @@
 	--notification-bad-border-color: #CB3A2A;
 	--notification-close-background-color-hover: #CFCFDE;
 
-	/* --- TYPOGRAFIA --- */
+	/* --- TYPOGRAPHY --- */
 	--font-color: #1F1F1F; /* Alucard Foreground */
-	--font-color-grey: #6C664B; /* Alucard Comment (dla mniej ważnego tekstu) */
+	--font-color-grey: #6C664B; /* Alucard Comment (for less important text) */
 	--font-color-light-shadowed: #6C664B;
-	--font-color-light: #FFFBEB; /* Dla tekstu na ciemnych przyciskach */
+	--font-color-light: #FFFBEB; /* For text on dark buttons */
 
 	--text-shadow-color: #ddd;
 	--text-shadow-color-dark: #bbb;
 
-	/* Cienie */
+	/* Shadows */
 	--box-shadow-color: #6C664B40;
 	--box-shadow-color-inset: #CFCFDE;
 
-	/* --- LINKI (Cyjan) --- */
+	/* --- LINKS (Cyan) --- */
 	--font-color-link: #036A96; /* Alucard Cyan */
-	--font-color-link-hover: #644AC9; /* Alucard Purple po najechaniu */
+	--font-color-link-hover: #644AC9; /* Alucard Purple on hover */
 
-	/* --- OBRAMOWANIA --- */
+	/* --- BORDERS --- */
 	--border-color: #CFCFDE; /* Alucard Selection */
 	--border-color-shadow-side: #B8B8C9;
 	--frss-border-color: var(--border-color);
 	--contrast-border-color-active: #644AC9;
 
-	/* --- FORMULARZE --- */
+	/* --- FORMS --- */
 	--form-element-font-color-focus: #644AC9;
 	--form-element-border-color-focus: #644AC9;
 	--form-element-focus-box-shadow-color-inset: #CFCFDE;
@@ -187,8 +187,8 @@ th {
 	text-align: center;
 }
 
-/*=== COMPONENTS */
-/*===============*/
+/*=== COMPONENTS ===*/
+/*==================*/
 /*=== Forms */
 .form-group.form-actions {
 	margin-bottom: 40px;
@@ -255,32 +255,32 @@ th {
 	border-radius: 0 3px 3px 0;
 }
 
-.stick .btn + .btn,
-.group .btn + .btn,
-.stick .btn + input,
-.stick .btn + .dropdown > .btn,
-.group .btn + .dropdown > .btn,
-.stick input + .btn,
-.stick select + .btn,
-.stick input + input,
-.stick input + .dropdown > .btn,
-.stick .dropdown + .btn,
-.group .dropdown + .btn,
-.stick .dropdown + input,
-.stick .dropdown + .dropdown > .btn,
-.group .dropdown + .dropdown > .btn {
-	border-left: none;
-}
+/* .stick .btn + .btn, */
+/* .group .btn + .btn, */
+/* .stick .btn + input, */
+/* .stick .btn + .dropdown > .btn, */
+/* .group .btn + .dropdown > .btn, */
+/* .stick input + .btn, */
+/* .stick select + .btn, */
+/* .stick input + input, */
+/* .stick input + .dropdown > .btn, */
+/* .stick .dropdown + .btn, */
+/* .group .dropdown + .btn, */
+/* .stick .dropdown + input, */
+/* .stick .dropdown + .dropdown > .btn, */
+/* .group .dropdown + .dropdown > .btn { */
+	/* border-left: none; */
+/* } */
 
 .stick input + .btn {
 	border-top: 1px solid var(--border-color);
 }
 
-.stick .dropdown:last-child > .btn,
-.group .dropdown:last-child > .btn {
-	border-left: none;
-	border-radius: 0 3px 3px 0;
-}
+/* .stick .dropdown:last-child > .btn, */
+/* .group .dropdown:last-child > .btn { */
+	/* border-left: none; */
+	/* border-radius: 0 3px 3px 0; */
+/* } */
 
 .btn {
 	margin: 0;
@@ -438,7 +438,7 @@ filter: invert(8%) sepia(99%) saturate(7064%) hue-rotate(248deg) brightness(99%)
 	text-align: center;
 }
 
-/*=== Dropdown */
+/*=== Dropdown Menu */
 .dropdown-menu {
 	margin: 5px 0 0;
 	padding: 5px 0;
@@ -608,7 +608,7 @@ filter: invert(8%) sepia(99%) saturate(7064%) hue-rotate(248deg) brightness(99%)
 	padding-bottom: 0.25rem;
 }
 
-/*=== Tree */
+/*=== Tree View */
 .tree {
 	margin: 10px 0;
 }
@@ -694,8 +694,8 @@ filter: invert(8%) sepia(99%) saturate(7064%) hue-rotate(248deg) brightness(99%)
 	color: var(--font-color-light);
 }
 
-/*=== STRUCTURE */
-/*===============*/
+/*=== STRUCTURE ===*/
+/*=================*/
 /*=== Header */
 .header {
 	background-color: var(--background-color-grey);
@@ -735,7 +735,7 @@ filter: invert(8%) sepia(99%) saturate(7064%) hue-rotate(248deg) brightness(99%)
 	margin: 10px 0 50px;
 }
 
-/*=== Aside main page (categories) */
+/*=== Main Page Sidebar (Categories) */
 .aside.aside_feed .category .title:not([data-unread="0"])::after,
 .global .box.category .title:not([data-unread="0"])::after,
 .global .feed .item-title:not([data-unread="0"])::after {
@@ -756,7 +756,7 @@ filter: invert(8%) sepia(99%) saturate(7064%) hue-rotate(248deg) brightness(99%)
 	background-color: var(--background-color-light-shadowed);
 }
 
-/*=== Aside main page (feeds) */
+/*=== Main Page Sidebar (Feeds) */
 .feed.item.empty.active {
 	background-color: var(--empty-feed-color);
 }
@@ -786,7 +786,7 @@ filter: invert(8%) sepia(99%) saturate(7064%) hue-rotate(248deg) brightness(99%)
 	left: 2px;
 }
 
-/*=== Prompt (centered) */
+/*=== Prompt (Centered) */
 .prompt .form-group {
 	margin-bottom: 1rem;
 }
@@ -825,7 +825,7 @@ text-decoration: none;
 background-color: var(--contrast-background-color-hover);
 }
 
-/*=== Transition indication, e.g. day */
+/*=== Transition indication, e.g. day divider */
 .transition {
 	padding: 0 10px;
 	font-weight: bold;
@@ -860,47 +860,47 @@ border-top: none;
 
 /*=== Feed articles (MODIFIED FOR DIMMED READ STATE) */
 .flux {
-	/* PRZECZYTANE: Przyciemnione tło, szary tekst */
+	/* READ: Dimmed background, grey text */
 	background-color: var(--background-color-light-shadowed);
 	color: var(--font-color-grey);
 	border-left: 2px solid transparent;
 
-	/* Kursywa i brak pogrubienia */
+	/* Italic and no bold */
 	font-style: italic;
 	font-weight: normal;
 }
 
-/* ZARZĄDZANIE IKONAMI (FAVICON) */
-/* Domyślny stan dla PRZECZYTANYCH artykułów: Szara, półprzezroczysta */
+/* ICON MANAGEMENT (FAVICON) */
+/* Default state for READ articles: Gray, semi-transparent */
 .flux .favicon {
 	filter: grayscale(100%) opacity(40%);
 	transition: filter 0.2s ease, opacity 0.2s ease;
 }
 
-/* HOVER na PRZECZYTANYM: Nadal szara, ale rozjaśniona (brightness) i pełne krycie */
+/* HOVER on READ: Still gray, but brightened and full opacity */
 .flux:hover .favicon {
 	filter: grayscale(100%) opacity(100%) brightness(1.3);
 }
 
 .flux.current {
-	/* AKTUALNIE WYBRANY: Jasne tło, normalny tekst */
+	/* CURRENTLY SELECTED: Light background, normal text */
 	background-color: var(--background-color-light);
 	color: var(--font-color);
 	border-left: 2px solid var(--contrast-border-color-active);
 
-	/* Reset stylu tekstu */
+	/* Reset text style */
 	font-style: normal;
 	font-weight: normal;
 }
 
-/* WYJĄTKI: Artykuły NIEPRZECZYTANE i AKTUALNIE WYBRANE - Ikony kolorowe */
+/* EXCEPTIONS: UNREAD and CURRENTLY SELECTED articles - Colored icons */
 .flux.not_read .favicon,
 .flux.current .favicon {
 	filter: none;
 	opacity: 1;
 }
 
-/* Zabezpieczenie: Hover na nieprzeczytanym/wybranym nie powinien psuć kolorów */
+/* Safeguard: Hover on unread/selected should not break colors */
 .flux.not_read:hover .favicon,
 .flux.current:hover .favicon {
 	filter: none;
@@ -919,11 +919,11 @@ border-top: none;
 
 .flux.not_read {
 	border-left: 2px solid var(--unread-article-border-color);
-	/* NIEPRZECZYTANE: Jasne tło, wyraźny tekst */
+	/* UNREAD: Light background, distinct text */
 	background-color: var(--background-color-light);
 	color: var(--font-color);
 
-	/* Pogrubienie i brak kursywy */
+	/* Bold and no italic */
 	font-weight: bold;
 	font-style: normal;
 }
@@ -1036,7 +1036,7 @@ border-top: none;
 border-top-color: var(--border-color);
 }
 
-/*=== Notification and actualize notification */
+/*=== Notifications and actualize notification */
 .notification {
 	font-size: 0.9em;
 	border: 1px solid var(--notification-good-border-color);
@@ -1099,8 +1099,8 @@ background-color: var(--background-color-light);
 border-top: 1px solid var(--border-color);
 }
 
-/*=== READER VIEW */
-/*================*/
+/*=== READER VIEW ===*/
+/*===================*/
 #stream.reader .flux {
 background-color: var(--background-color-grey);
 border: none;
@@ -1115,8 +1115,8 @@ border-color: var(--border-color);
 color: var(--font-color-grey);
 }
 
-/*=== GLOBAL VIEW */
-/*================*/
+/*=== GLOBAL VIEW ===*/
+/*===================*/
 .box.category:not([data-unread="0"]) .box-title {
 	background-color: var(--contrast-background-color);
 }
@@ -1142,8 +1142,8 @@ color: var(--font-color-grey);
 	text-shadow: none;
 }
 
-/*=== DIVERS */
-/*===========*/
+/*=== MISCELLANEOUS ===*/
+/*=====================*/
 .aside.aside_feed .nav-form input,
 .aside.aside_feed .nav-form select {
 	width: 140px;
@@ -1157,8 +1157,8 @@ color: var(--font-color-grey);
 	right: 33px;
 }
 
-/*=== STATISTICS */
-/*===============*/
+/*=== STATISTICS ===*/
+/*==================*/
 .stat {
 	margin: 10px 0 20px;
 }
@@ -1174,8 +1174,8 @@ color: var(--font-color-grey);
 	border-bottom: 1px solid var(--border-color);
 }
 
-/*=== LOGS */
-/*=========*/
+/*=== LOGS ===*/
+/*============*/
 .pagination .item.active {
 	background-color: var(--contrast-background-color-active);
 	color: white;
@@ -1185,8 +1185,8 @@ color: var(--font-color-grey);
 font-family: monospace;
 }
 
-/*=== MOBILE */
-/*===========*/
+/*=== MOBILE ===*/
+/*==============*/
 
 @media (max-width: 840px) {
 	.header > .item {
@@ -1298,6 +1298,7 @@ font-family: monospace;
 	}
 }
 
+/* === DARK MODE (prefers-color-scheme: dark) === */
 @media screen and (prefers-color-scheme: dark) {
 	:root.darkMode_auto {
 		--frss-padding-top-bottom: 0.5rem;
@@ -1307,7 +1308,7 @@ font-family: monospace;
 		--background-color-light-gradient1: #282A36;
 		--background-color-light-gradient2: #282A36; /* Flattened gradients for modern look */
 		--background-color-light: #282A36;
-		--background-color-light-shadowed: #21222C; /* Slightly darker than main bg */
+		--background-color-light-shadowed: #1E1F29; /* Slightly darker than main bg */
 		--background-color-light-shadowed-transparent: #282A36a8;
 		--background-color-grey: #282A36;
 		--background-color-hover: #44475A; /* Dracula Selection color */
@@ -1339,7 +1340,7 @@ font-family: monospace;
 		--attention-background-color-active: #FF5555;
 		--attention-border-color: #FF5555;
 
-		/* --- Feeds Status --- */
+		/* --- Feed Status --- */
 		--empty-feed-color: #FFB86C; /* Orange */
 		--error-feed-color: #FF5555; /* Red */
 
@@ -1437,11 +1438,11 @@ font-family: monospace;
 	}
 
 	/* ========================================================================== */
-	/* === GLOBALNE NADPISANIE FRSS & STYLE KOŃCOWE === */
+	/* === GLOBAL FRSS OVERRIDES & FINAL STYLES === */
 	/* ========================================================================== */
-	
+
 	:root {
-	    /* MAPOWANIE ZMIENNYCH SYSTEMOWYCH FRSS (Naprawa białych teł) */
+	    /* FRSS SYSTEM VARIABLE MAPPING (Fixing white backgrounds) */
 	    --frss-background-color: var(--background-color-light);
 	    --frss-background-color-middle: var(--background-color-light-shadowed);
 	    --frss-background-color-dark: var(--background-color-hover);
@@ -1449,68 +1450,67 @@ font-family: monospace;
 	    --frss-font-color-dark: var(--font-color);
 	    --frss-font-color-grey-dark: var(--font-color-grey);
 	    --frss-font-color-light: var(--font-color-light);
-	
-	    /* Zmienne dla pasków przewijania (bazowy kolor) */
+
+	    /* Variables for scrollbars (base color) */
 	    --frss-scrollbar-handle: var(--contrast-background-color);
 	    --frss-scrollbar-track: var(--background-color-grey);
-	
-	    /* Wymuszenie koloru uchwytu paska przewijania na hoverze (by zapobiec szarości) */
+
+	    /* Forcing scrollbar handle color on hover (to prevent gray) */
 	    --frss-scrollbar-handle-hover: var(--contrast-background-color-hover) !important;
 	    --frss-scrollbar-track-hover: var(--background-color-hover) !important;
-	
-	    /* Twoje nadpisanie dla przezroczystego tła (czerwień) */
+
+	    /* Custom override for transparent background (red) */
 	    --frss-background-color-transparent: #1e1f29d9 !important;
 	}
-	
+
 	@media screen and (prefers-color-scheme: dark) {
 	    :root.darkMode_auto {
-	        /* Wymuszenie ciemnego tła systemowego dla ustawień */
+	        /* Forcing dark system background for settings */
 	        --frss-background-color: #282A36 !important;
 	        --frss-background-color-middle: #44475A !important;
 	        --frss-font-color-dark: #F8F8F2 !important;
-	
-	        /* Zabezpieczenie przed białym tłem inputów w ustawieniach */
+
+	        /* Safeguard against white input backgrounds in settings */
 	        input, select, textarea {
 	            background-color: #282A36 !important;
 	            color: #F8F8F2 !important;
 	        }
 	    }
-	
-	    /* Wymuszenie ciemnego tła na poziomie globalnym dla opornych sekcji */
+
+	    /* Forcing dark background globally for stubborn sections */
 	    #global, .post, .box, main.prompt {
 	        background-color: var(--background-color-light) !important;
 	        color: var(--font-color) !important;
 	    }
 	}
-	
-	
+
+
 	/* ========================================================================== */
-	/* === STYLE WIZUALNE: LICZNIKI I BUTTONY === */
+	/* === VISUAL STYLES: COUNTS AND BUTTONS === */
 	/* ========================================================================== */
-	
-	/* LICZNIKI / BADGES (FIOLETOWE PASTYLKI) */
+
+	/* COUNTS / BADGES (PURPLE PILLS) */
 	.aside .feed .item-title:not([data-unread="0"])::after,
 	.aside .category .title:not([data-unread="0"])::after,
 	.global .box.category .title:not([data-unread="0"])::after {
-	    background-color: var(--contrast-background-color) !important; /* Fiolet */
+	    background-color: var(--contrast-background-color) !important; /* Purple */
 	    color: var(--font-color-light) !important;
 	    border: none !important;
-	    border-radius: 12px; 
+	    border-radius: 12px;
 	    font-weight: bold;
 	    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 	}
-	
-	/* Licznik w aktywnym kanale (Różowy) */
+
+	/* Count in active feed (Pink) */
 	.feed.active .item-title:not([data-unread="0"])::after {
-	    background-color: var(--contrast-background-color-active) !important; /* Róż */
+	    background-color: var(--contrast-background-color-active) !important; /* Pink */
 	    color: var(--contrast-background-font-color) !important;
 	    box-shadow: 0 0 8px var(--contrast-background-color-active);
 	}
-	
-	
-	
+
+
+
 	.btn.btn-important:hover {
 	    filter: brightness(1.1);
 	}
-	
 }
