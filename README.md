@@ -16,7 +16,7 @@
 2. Clone this repository:
 
    ```bash
-   git clone [https://github.com/marek2004/FreshRSS_Dracula.git](https://github.com/marek2004/FreshRSS_Dracula.git)
+   git clone https://github.com/marek2001/FreshRSS_Dracula.git
    
 ### Option 2: Manual Download
 
