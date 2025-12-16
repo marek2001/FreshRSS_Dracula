@@ -49,6 +49,6 @@
 ### Activate
 
 1. Log in to your FreshRSS instance.
-2. Go to **Administration** ( ⚙️ gear icon) -> **Display**.
+2. Go to **Configuration** ( ⚙️ gear icon) -> **Display**.
 3. Under **Theme**, select **Dracula**.
 4. Scroll down and click **Submit** to save.
