@@ -1306,8 +1306,8 @@ font-family: monospace;
 		/* --- Backgrounds (Dracula Dark) --- */
 		/* Using #282A36 (Background) and #44475A (Current Line/Selection) */
 		--background-color-light-gradient1: #282A36;
-		--background-color-light-gradient2: #1f212a; /* Flattened gradients for modern look */
-		--background-color-light: #282A36;
+		--background-color-light-gradient2: #282A36; /* Flattened gradients for modern look */
+		--background-color-light: #1f212a;
 		--background-color-light-shadowed: #1E1F29; /* Slightly darker than main bg */
 		--background-color-light-shadowed-transparent: #282A36a8;
 		--background-color-grey: #282A36;
