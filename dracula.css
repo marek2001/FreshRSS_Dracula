@@ -1264,6 +1264,35 @@ font-family: monospace;
 	}
 }
 
+	/* ========================================================================== */
+	/* === VISUAL STYLES: COUNTS AND BUTTONS === */
+	/* ========================================================================== */
+
+	/* COUNTS / BADGES (PURPLE PILLS) */
+	.aside .feed .item-title:not([data-unread="0"])::after,
+	.aside .category .title:not([data-unread="0"])::after,
+	.global .box.category .title:not([data-unread="0"])::after {
+	    background-color: var(--contrast-background-color) !important; /* Purple */
+	    color: var(--font-color-light) !important;
+	    border: none !important;
+	    border-radius: 12px;
+	    font-weight: bold;
+	    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+	}
+
+	/* Count in active feed (Pink) */
+	.feed.active .item-title:not([data-unread="0"])::after {
+	    background-color: var(--contrast-background-color-active) !important; /* Pink */
+	    color: var(--contrast-background-font-color) !important;
+	    box-shadow: 0 0 8px var(--contrast-background-color-active);
+	}
+
+
+
+	.btn.btn-important:hover {
+	    filter: brightness(1.1);
+	}
+
 /* === DARK MODE (prefers-color-scheme: dark) === */
 @media screen and (prefers-color-scheme: dark) {
 	:root.darkMode_auto {
@@ -1448,35 +1477,5 @@ font-family: monospace;
 	        background-color: var(--background-color-light) !important;
 	        color: var(--font-color) !important;
 	    }
-	}
-
-
-	/* ========================================================================== */
-	/* === VISUAL STYLES: COUNTS AND BUTTONS === */
-	/* ========================================================================== */
-
-	/* COUNTS / BADGES (PURPLE PILLS) */
-	.aside .feed .item-title:not([data-unread="0"])::after,
-	.aside .category .title:not([data-unread="0"])::after,
-	.global .box.category .title:not([data-unread="0"])::after {
-	    background-color: var(--contrast-background-color) !important; /* Purple */
-	    color: var(--font-color-light) !important;
-	    border: none !important;
-	    border-radius: 12px;
-	    font-weight: bold;
-	    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-	}
-
-	/* Count in active feed (Pink) */
-	.feed.active .item-title:not([data-unread="0"])::after {
-	    background-color: var(--contrast-background-color-active) !important; /* Pink */
-	    color: var(--contrast-background-font-color) !important;
-	    box-shadow: 0 0 8px var(--contrast-background-color-active);
-	}
-
-
-
-	.btn.btn-important:hover {
-	    filter: brightness(1.1);
 	}
 }
