@@ -1,3 +1,5 @@
+***!!Repo moved to https://github.com/dracula/freshrss!!***
+
 # Dracula for [Freshrss](https://www.freshrss.org/)
 
 > A dark/light theme for [Freshrss](https://www.freshrss.org/).
